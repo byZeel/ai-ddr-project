@@ -5,7 +5,7 @@ def safe_json_load(data):
         return json.loads(data)
     except:
         return []
-#
+
 def merge_data(insp_json, therm_json):
     inspection = safe_json_load(insp_json)
     thermal = safe_json_load(therm_json)
