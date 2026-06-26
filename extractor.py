@@ -1,6 +1,6 @@
 import fitz
 import os
-
+#
 def extract_pdf(file_path):
     doc = fitz.open(file_path)
     text = ""
