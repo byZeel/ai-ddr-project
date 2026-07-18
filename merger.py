@@ -1,5 +1,5 @@
 import json
-#
+
 def safe_json_load(data):
     try:
         return json.loads(data)
