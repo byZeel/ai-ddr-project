@@ -2,7 +2,7 @@ from extractor import extract_pdf
 from llm import call_llm
 from merger import merge_data
 from prompts import INSPECTION_PROMPT, THERMAL_PROMPT, REPORT_PROMPT
-#
+
 def run_pipeline(inspection_pdf, thermal_pdf):
     print("Extracting PDFs...")
     insp_text, insp_images = extract_pdf(inspection_pdf)
